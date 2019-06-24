@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Six Caps:100,200,300,400,500,600,700');
+
+
+/* ____________________________________________|| Colors   ||_____________________________*/
+.bg-color-name-tittle {
+
+}
+
+/* ____________________________________________|| Heading  ||_____________________________*/
+
+/*
+.logo {
+    background: url("./img/fflogotemp.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 360px;
+    max-height: 100%;
+}   
+*/
+.heading-box {
+    background-color: rgb(255, 238, 189);
+}
+.heading {
+    background-color: rgb(255, 238, 189);
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    
+}
+
+.toptittle {
+    font-family: "Six Caps", sans-serif;
+    font-size: 14;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.slogan {
+    font-family: "Six Caps", sans-serif;
+    font-size:10;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* ____________________________________________|| Body     ||_____________________________*/
+
+.bgbody {
+    background: url("./img/backgroundstyle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    min-width: 100%;
+    min-height: 2592px;
+    max-height: 100%;
+    max-width: 992px;
+}
+
+/* ____________________________________________|| Menu     ||_____________________________*/
+
+.dropdown { 
+    margin: 0;
+}
+
+.dropdownMenuButton {
+    margin: 0;
+}
+    
+
+/* ____________________________________________|| other    ||_____________________________*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+
+}
+
+/* ____________________________________________|| Colors   ||_____________________________*/
+
+/* ____________________________________________|| Colors   ||_____________________________*/
+
+/* ____________________________________________|| Colors   ||_____________________________*/
+
+/* ____________________________________________|| Colors   ||_____________________________*/
+
+/* ____________________________________________|| Colors   ||_____________________________*/
+
+/* ____________________________________________|| Colors   ||_____________________________*/
