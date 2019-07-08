@@ -2,87 +2,264 @@
 
 
 /* ____________________________________________|| Colors   ||_____________________________*/
-.bg-color-name-tittle {
-
-}
 
 /* ____________________________________________|| Heading  ||_____________________________*/
 
-/*
-.logo {
-    background: url("./img/fflogotemp.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+    max-width: 100%;
+    margin: 0;
+    background-color: #555;
+    min-height: 80px;
+    color: #101412;
+    border-radius: 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-position: center;
     background-size: 100%;
-    min-height: 360px;
-    max-height: 100%;
-}   
-*/
-.heading-box {
-    background-color: rgb(255, 238, 189);
-}
-.heading {
-    background-color: rgb(255, 238, 189);
-    float: left;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0px;
-    
+    background-repeat: no-repeat;
+    background-color: #f0e1c3;
+    position: relative;
 }
 
-.toptittle {
-    font-family: "Six Caps", sans-serif;
-    font-size: 14;
-    font-weight: 300;
-    margin-left: 15px;
-    margin-right: 15px;
+.topnav #myLinks {
+    display: none;
 }
 
-.slogan {
+.topnav a {
+    text-align: center;
     font-family: "Six Caps", sans-serif;
-    font-size:10;
-    font-weight: 300;
-    margin-left: 15px;
-    margin-right: 15px;
+    color: #101412;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
 }
+
+.topnav a.icon {
+    background: #f0e1c3;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    text-align: center;
+    font-family: "Six Caps", sans-serif;
+    font-size: 30px;
+    background-color: #f0e1c3;
+    color: white;
+}
+
 /* ____________________________________________|| Body     ||_____________________________*/
 
 .bgbody {
     background: url("./img/backgroundstyle.jpg");
+    Margin: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     min-width: 100%;
-    min-height: 2592px;
     max-height: 100%;
     max-width: 992px;
+    z-index: -1;
 }
 
-/* ____________________________________________|| Menu     ||_____________________________*/
-
-.dropdown { 
-    margin: 0;
-}
-
-.dropdownMenuButton {
-    margin: 0;
-}
+.jumbotron {
     
+
+}
+
+.leadbox {
+    padding-top: 30px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    opacity: 0.9;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-width: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.subbox {
+    padding-top: 30px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    opacity: 0.9;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-width: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.attentiontext {
+    font-family: "Six Caps", sans-serif;
+}
+
+.leftbox {
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-width: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.rightbox {
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-width: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.htpicture {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+/* ____________________________________________|| slides   ||_____________________________*/
+
+.mySlides {
+
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+
+}
+
+.w3-content {
+    max-height: 100%;
+    min-width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+
+.w3-display-left {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    margin-left: 10%;
+    opacity: 0.7;
+}
+
+.w3-display-right {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    margin-right: 10%;
+    opacity: 0.7;
+}
+
 
 /* ____________________________________________|| other    ||_____________________________*/
 
-h1,
-h2,
-h3,
-h4 {
+general-sub {
+    font-family: "exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+/* ____________________________________________|| Footer   ||_____________________________*/
+
+footer {
+    text-align: center;
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 75px;
+    max-height: 100px;
+    margin-bottom: 0%;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links ul {
     margin: 0;
+}
+
+.social-links li a i {
+    margin: 0;
+    width: 30px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: transparent;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #ffd505;
 
 }
 
-/* ____________________________________________|| Colors   ||_____________________________*/
+.list-inline {
+    margin: 0;
+    /* This took me so long to find the little white line at the bottom ... almost lost my hair here */
+}
 
-/* ____________________________________________|| Colors   ||_____________________________*/
+.list-inline-item {
+    position: relative;
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 0px;
+
+
+}
+
+/* ____________________________________________|| Popup    ||_____________________________*/
+
+/* for some reason i couldn't target <p> here so i added it to the HTML directly
+<p class="howto">content</p>
+.howto {
+    padding-right: 5%;
+    padding-left: 5%;
+    Padding-top: 10px;
+}
+*/
 
 /* ____________________________________________|| Colors   ||_____________________________*/
 
